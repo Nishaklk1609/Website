@@ -1,156 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        section {
+            padding: 80px 0;
+        }
+    </style>
 </head>
+
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
-<div class="container">
-<a class="navbar-brand fw-bold" href="#">🌿 Savana</a>
-<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="nav">
-<ul class="navbar-nav ms-auto">
-<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-<li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
-<li class="nav-item"><a class="nav-link" href="#stats">Stats</a></li>
-<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-</ul>
-</div>
-</div>
-</nav>
-
-<!-- Home -->
-<section id="home" class="bg-light text-center">
-<div class="container">
-<h1>Welcome to Savana</h1>
-<p>Explore the beauty of savana.</p>
-</div>
-</section>
-
-<!-- Carousel -->
-<section id="gallery" class="py-5">
-<div class="container">
-<h2 class="text-center mb-4">Wildlife Gallery</h2>
-
-<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-<div class="carousel-inner">
-
-<div class="carousel-item active">
-<img src="dress1.webp" class="d-block w-100">
-</div>
-
-<div class="carousel-item">
-<img src="dress3.webp" class="d-block w-100">
-</div>
-
-<div class="carousel-item">
-<img src="shoes1.webp" class="d-block w-100">
-</div>
-
-<div class="carousel-item">
-<img src="dress5.webp" class="d-block w-100">
-</div>
-
-<div class="carousel-item">
-<img src="dress2.webp" class="d-block w-100">
-</div>
-
-<div class="carousel-item">
-<img src="makeup.jpg" class="d-block w-100">
-</div>
-
-</div>
-
-<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-<span class="carousel-control-prev-icon"></span>
-</button>
-
-<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-<span class="carousel-control-next-icon"></span>
-</button>
-
-</div>
-</div>
-</section>
-
-<!-- About -->
-<section id="about">
-<div class="container text-center">
-<h2>About Us</h2>
-<p>
-Savana is a platform where you can find any type of dress, shoes, makeup products, etc.
-</p>
-<p>Here you can see:</p>
-</div>
-</section>
-
-<div class="container-lg">
-    <h2>Popular albums</h2>
-    <div class="row">
-      <div class="col-md-3">
-        <div class="card" style="width: 18rem;">
-          <img src="dress4.webp" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">fancy dress</p>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">🌿 Savana</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
-      </div>
+    </nav>
 
-      <div class="col-md-3">
-        <div class="card" style="width: 18rem;">
-          <img src="girlsshoes.webp" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Trending shoes</p>
-          </div>
+    <!-- Home -->
+    <section id="home" class="bg-light text-center">
+        <div class="container">
+            <h1>Welcome to Savana</h1>
+            <p>Explore the beauty of savana.</p>
         </div>
-      </div>
+    </section>
 
-      <div class="col-md-3">
-        <div class="card" style="width: 18rem;">
-          <img src="makeup2.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Make-up kit</p>
-          </div>
-        </div>
-      </div>
+    <!-- Carousel -->
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Savana Gallery</h2>
 
-      <div class="col-md-3">
-        <div class="card" style="width: 18rem;">
-          <img src="heels.webp" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Gorgeous heels</p>
-          </div>
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="dress1.webp" class="d-block w-100">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="dress3.webp" class="d-block w-100">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="shoes1.webp" class="d-block w-100">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="dress5.webp" class="d-block w-100">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="dress2.jpg" class="d-block w-100">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="makeup.jpg" class="d-block w-100">
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+
+            </div>
         </div>
-      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="container text-center">
+            <h2>About Us</h2>
+            <p>
+                Savana is a modern online platform offering a wide range of fashion, footwear, and beauty products in
+                one convenient place.
+            </p>
+            <p>Here you can see:</p>
+        </div>
+    </section>
+
+    <div class="container-lg">
+        <h2>Popular albums</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="dress4.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">fancy dress</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="girlsshoes.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Trending shoes</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="makeup2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Make-up kit</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="heels.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Gorgeous heels</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 
 
-  <!-- Contact -->
-<section id="contact" class="bg-light">
-<div class="container text-center">
-<h2>Contact Us</h2>
-<form class="w-50 mx-auto">
-<input type="text" class="form-control mb-3" placeholder="Your Name">
-<input type="email" class="form-control mb-3" placeholder="Your Email">
-<textarea class="form-control mb-3" rows="4" placeholder="Message"></textarea>
-<button class="btn btn-success">Send</button>
-</form>
-</div>
-</section>
+    <!-- Contact -->
+    <section id="contact" class="bg-light">
+        <div class="container text-center">
+            <h2>Contact Us</h2>
+            <form class="w-50 mx-auto">
+                <input type="text" class="form-control mb-3" placeholder="Your Name">
+                <input type="email" class="form-control mb-3" placeholder="Your Email">
+                <textarea class="form-control mb-3" rows="4" placeholder="Message"></textarea>
+                <button class="btn btn-success">Send</button>
+            </form>
+        </div>
+    </section>
 
-<footer class="bg-success text-white text-center p-3">
-© 2026 Savana Website
-</footer>
+    <footer class="bg-success text-white text-center p-3">
+        © 2026 Savana Website
+    </footer>
 
-    
+
 </body>
+
 </html>
