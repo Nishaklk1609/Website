@@ -108,76 +108,94 @@
         </div>
     </section>
 
-    <!-- About -->
-    <section id="about">
-        <div class="container text-center">
-            <h2>About Us</h2>
-            <p>
-                Savana is a modern online platform offering a wide range of fashion, footwear, and beauty products in
-                one convenient place.
-            </p>
-            <p>Here you can see:</p>
-        </div>
-    </section>
+    <!-- Products -->
+    <section id="products" class="container py-5">
+        <h2 class="text-center section-title">Our Products</h2>
+        <div class="row g-4">
 
-    <div class="container-lg">
-        <h2>Popular albums</h2>
-        <div class="row">
+            <!-- Product 1 -->
             <div class="col-md-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="dress4.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">fancy dress</p>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5>T-Shirt</h5>
+                        <p>₹499</p>
+                        <button class="btn btn-success" onclick="addToCart('T-Shirt',499)">Add to Cart</button>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="girlsshoes.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Trending shoes</p>
+            <!-- About -->
+            <section id="about">
+                <div class="container text-center">
+                    <h2>About Us</h2>
+                    <p>
+                        Savana is a modern online platform offering a wide range of fashion, footwear, and beauty
+                        products in
+                        one convenient place.
+                    </p>
+                    <p>Here you can see:</p>
+                </div>
+            </section>
+
+            <div class="container-lg">
+                <h2>Popular albums</h2>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="dress4.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">fancy dress</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="girlsshoes.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Trending shoes</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="makeup2.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Make-up kit</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="heels.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Gorgeous heels</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="makeup2.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Make-up kit</p>
-                    </div>
+
+            <!-- Contact -->
+            <section id="contact" class="bg-light">
+                <div class="container text-center">
+                    <h2>Contact Us</h2>
+                    <form class="w-50 mx-auto">
+                        <input type="text" class="form-control mb-3" placeholder="Your Name">
+                        <input type="email" class="form-control mb-3" placeholder="Your Email">
+                        <textarea class="form-control mb-3" rows="4" placeholder="Message"></textarea>
+                        <button class="btn btn-success">Send</button>
+                    </form>
                 </div>
-            </div>
+            </section>
 
-            <div class="col-md-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="heels.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Gorgeous heels</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Contact -->
-    <section id="contact" class="bg-light">
-        <div class="container text-center">
-            <h2>Contact Us</h2>
-            <form class="w-50 mx-auto">
-                <input type="text" class="form-control mb-3" placeholder="Your Name">
-                <input type="email" class="form-control mb-3" placeholder="Your Email">
-                <textarea class="form-control mb-3" rows="4" placeholder="Message"></textarea>
-                <button class="btn btn-success">Send</button>
-            </form>
-        </div>
-    </section>
-
-    <footer class="bg-success text-white text-center p-3">
-        © 2026 Savana Website
-    </footer>
+            <footer class="bg-success text-white text-center p-3">
+                © 2026 Savana Website
+            </footer>
 
 
 </body>
